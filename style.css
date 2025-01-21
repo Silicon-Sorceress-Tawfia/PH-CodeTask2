@@ -153,3 +153,47 @@ nav{
      white-space: nowrap;
      padding-left: 100%;
   }
+@keyframes tickerMove {
+      0% {
+          transform: translateX(0);
+      }
+      100%{
+          transform: translateX(-100%);
+      }
+  }
+ 
+
+
+
+
+/*Empowering section */
+.Empowering{
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.Empowering-title{
+    font-size:2rem;
+    font-weight:bold ;
+    margin-bottom: 20px;
+}
+.Empower{
+    color: orange;
+}
+.towards{
+    color:skyblue ;
+}
+.describtion{
+ font-size: 1.4rem;
+ margin-bottom: 20px;
+}
+.Empowering-btn{
+    background-color: black;
+    color: white;
+    padding: 8px 19px 8px 19px;
+    border-radius: 8px;
+}
