@@ -48,3 +48,53 @@ nav{
     font-size: 1.3rem;
     font-weight: bold;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.quicksand{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+nav{
+    display: flex;
+    max-width: 1000px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 10px;
+}
+.nav-1{
+    display: flex;
+    align-items: center;  
+}
+.nav-1 h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav-2{
+    display: flex;
+    gap: 1.4rem;  
+}
+.nav-2 li {
+    list-style: none;
+}
+.li-1{
+    color:orange ;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.li-2{
+    color:skyblue ;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.li-3{
+    color:tomato ;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
